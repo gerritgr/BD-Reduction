@@ -2,6 +2,7 @@ FROM jupyter/datascience-notebook
 MAINTAINER "gerritgr"
 
 RUN git clone https://github.com/gerritgr/BD-Reduction/
+RUN julia BD-Reduction/install.jl
 RUN cp BD-Reduction/main.ipynb main.ipynb
 RUN cp BD-Reduction/visualization.ipynb visualization.ipynb
 RUN cp -R BD-Reduction/rust/ rust/
