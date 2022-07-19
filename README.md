@@ -32,6 +32,15 @@ Install [Julia](https://julialang.org/downloads/) and [link it to your jupyter n
 ### Step 4: Open 'main.ipynb'
 `visualization.ipynb` (Python) can also create nicer plots but is not really necessary.
 
+## Docker
+You can also use Docker to run the code off the shelf:
+```console
+docker pull gerritgr/bdreduction:latest
+docker run -p 10000:8888 gerritgr/bdreduction
+```
+You can then open the Jupyter Lab URL in your browser. 
+
+
 # Graphs
 We use generate contact networks with the following parameters:
 
@@ -52,10 +61,3 @@ g = barabasi_albert(n, 6, seed=123)
 g = watts_strogatz(n, 16, 0.8, seed=123)  
 ```
 
-# Docker
-You can also use Docker to run the code off the shelf:
-```console
-docker pull gerritgr/bdreduction:latest
-docker run -p 10000:8888 gerritgr/bdreduction
-```
-You can then open the Jupyter Lab URL in your browser. 
