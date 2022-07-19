@@ -38,7 +38,7 @@ You can also use Docker to run the code off the shelf:
 docker pull gerritgr/bdreduction:latest
 docker run -p 8888:8888 gerritgr/bdreduction
 ```
-You can then open the Jupyter Lab URL in your browser. 
+You can then open the Jupyter Lab URL in your browser and open `main.ipynb` (no need to execute the first cell). 
 
 
 # Graphs
