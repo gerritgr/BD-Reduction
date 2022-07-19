@@ -52,5 +52,10 @@ g = barabasi_albert(n, 6, seed=123)
 g = watts_strogatz(n, 16, 0.8, seed=123)  
 ```
 
-
-
+### Docker
+You can also use Docker to run the code off the shelf:
+```console
+docker pull gerritgr/bdreduction:latest
+docker run -p 10000:8888 gerritgr/bdreduction
+```
+You can then open the Jupyter Lab URL in your browser. 
