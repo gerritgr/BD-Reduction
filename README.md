@@ -7,7 +7,10 @@ Copyright: 2022, Gerrit Großmann, [Group of Modeling and Simulation](https://mo
 
 Version: 0.1 (Please note that this is proof-of-concept code.)
 
+A more detailed description of the technique can be found in **Chapter 7** of my [phd dissertation](https://github.com/gerritgr/phd).
+
 ![alt text](overview.png "Overview")
+
 
 
 # Usage
